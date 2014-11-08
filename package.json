@@ -2,7 +2,7 @@
   "name": "finite-spaghetti-machine",
   "version": "1.0.0",
   "description": "A very tasty state machine",
-  "main": "index.js",
+  "main": "lib/fsm.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --require chai"
   },
