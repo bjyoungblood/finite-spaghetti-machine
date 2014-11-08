@@ -1,0 +1,33 @@
+{
+  "name": "finite-spaghetti-machine",
+  "version": "1.0.0",
+  "description": "A very tasty state machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --require chai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjyoungblood/finite-spaghetti-machine"
+  },
+  "keywords": [
+    "fsm",
+    "state",
+    "machine"
+  ],
+  "author": "Ben Youngblood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjyoungblood/finite-spaghetti-machine/issues"
+  },
+  "homepage": "https://github.com/bjyoungblood/finite-spaghetti-machine",
+  "devDependencies": {
+    "blanket": "^1.1.6",
+    "chai": "^1.9.2",
+    "chai-spies": "^0.5.1",
+    "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
