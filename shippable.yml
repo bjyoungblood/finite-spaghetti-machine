@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 0.10.33
+
+before_install: npm install -g bjyoungblood/jscomplexity jbrumwell/node-jsxcs jsxhint jshint-junit-reporter jscpd jscs
+script:
+  - npm run test-cov
+
+after_script:
+  - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
