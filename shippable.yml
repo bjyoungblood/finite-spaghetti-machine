@@ -4,7 +4,4 @@ node_js:
 
 before_install: npm install -g bjyoungblood/jscomplexity jbrumwell/node-jsxcs jsxhint jshint-junit-reporter jscpd jscs
 script:
-  - npm run test-cov
-
-after_script:
-  - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
+  - node_modules/.bin/gulp ci
